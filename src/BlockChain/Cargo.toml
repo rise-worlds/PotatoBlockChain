@@ -1,16 +1,12 @@
 [package]
-name = "potatoblockchain"
-description = "PotatoBlockChain"
+name = "BlockChain"
 version = "0.1.0"
 authors = ["rise <rise.worlds@outlook.com>"]
 edition = "2018"
-license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-
-[[bin]]
-path = "src/main.rs"
-name = "potatoblockchain"
+serde = { version = "1.0", features = ["derive"] }
+chrono = "0.4"
+bigint = "4"
