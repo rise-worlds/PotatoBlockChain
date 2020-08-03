@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) 启动",
+            "name": "(Windows) 启动example",
             "type": "cppvsdbg",
             "preLaunchTask": "build",
             "request": "launch",
-            "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}.exe",
+            "program": "${workspaceFolder}/target/debug/blockchain_example.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -17,20 +17,20 @@
             "externalConsole": false
         },
         {
-            "name": "(Linux) 启动",
+            "name": "(Linux) 启动example",
             "type": "gdb",
             "preLaunchTask": "build",
             "request": "launch",
-            "target": "${workspaceFolder}/target/debug/${workspaceFolderBasename}",
+            "target": "${workspaceFolder}/target/debug/blockchain_example",
             "args": [],
             "cwd": "${workspaceFolder}"
         },
         {
-            "name": "(Mac) 启动",
+            "name": "(Mac) 启动example",
             "type": "cppdbg",
             "preLaunchTask": "build",
             "request": "launch",
-            "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}",
+            "program": "${workspaceFolder}/target/debug/blockchain_example",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
