@@ -4,4 +4,4 @@ name = "blockchain_example"
 version = "0.1.0"
 [dependencies]
 rust-crypto = "0.2.36"
-time = "0.1.38"
+time = "0.2.0"
